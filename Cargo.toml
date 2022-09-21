@@ -1,0 +1,20 @@
+[package]
+name = "jsonml"
+version = "0.4.1"
+authors = ["gemmaro <gemmaro.dev@gmail.com>"]
+edition = "2021"
+rust-version = "1.63"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+description = "JsonML deserialization and serialization"
+repository = "https://gitlab.com/gemmaro/rust-jsonml"
+keywords = ["json", "serde", "markup"]
+
+[dependencies]
+html-escape = "0.2.11"
+serde = { version = "1.0.144", features = ["derive"] }
+void = "1.0.2"
+
+[dev-dependencies]
+serde_json = "1.0.85"
+serde_test = "1.0.144"
